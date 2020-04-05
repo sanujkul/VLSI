@@ -1,0 +1,41 @@
+*Two stage Op amp using
+.include /Users/sanujkul/Documents/LTspice/Workspace/VLSI/libraries/180nm_model.txt
+
+M1 2 4 5 5 N_180 w=1.25u l=.18u
+M2 3 6 5 5 N_180 w=1.25u l=.18u
+
+M3 2 2 1 1 P_180 w=5u l=.18u
+M4 3 2 1 1 P_180 w=5u l=.18u
+M5 7 3 1 1 P_180 w=5u l=.18u
+
+M6 9 9 10 10 N_180 w=1.25u l=.18u
+M7 5 9 10 10 N_180 w=1.25u l=.18u
+M8 7 9 10 10 N_180 w=1.25u l=.18u
+
+R0 3 8 2.3k
+Cc 8 7 3.5p
+Cl 7 0 4p
+
+Vdd 1 0 DC 5v
+Vss 10 0 DC -5v
+
+*Vid 100 0 PULSE(0 5V 0.2us 0.1fs 0.1fs 1us 2us)
+Vid 100 0 SIN(0 0.5mV 1000 0 0)
+Rid 100 0 1G
+Epos 6 0 100 0 0.5
+Eneg 4 0 100 0 -0.5
+
+.TRAN 0 2ms
+***** OUTPUT CODES **********
+***************************************
+*Nwxt two lines for TRANSIENT ANALYSIS
+*VT 2 0 PULSE(0 1.8 0 1n 1n 10n 22n)
+*.TRAN 0 100n
+***************************************
+*DC ANALYSIS
+*VT 2 0 DC 1V
+*.DC Vt 0 1.8 0.1
+***************************************
+*AC ANALYSIS
+*.AC DEC 50 100 1MEG
+
