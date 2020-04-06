@@ -3,7 +3,7 @@ LTSpice Implementation and analysis of VLSI designs learned in college in the co
 
 ## List of Experiments:
 
-### 1. Simulate a 2 stage op amp and determine 
+### 1. Simulate a 2 stage CMOS op amp and determine 
    (i)   DC characteristics,   
    (ii)  frequency response,   
    (iv)  slew rate and   
@@ -11,7 +11,7 @@ LTSpice Implementation and analysis of VLSI designs learned in college in the co
    
    Detailed experiment report is here : https://github.com/sanujkul/VLSI/blob/master/CMOS-OpAmp/Experiment-Report.pdf. 
    
-   Results:  
+   #### Results:  
    a. The opamp saturates after |Vin| > 40 mV  
    b. It is a low pass frequency response with 3 db bandwidth = 1.588 kHz  
    c. Slew rate = 20 V/us  
