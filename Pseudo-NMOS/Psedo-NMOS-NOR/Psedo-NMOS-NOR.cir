@@ -1,4 +1,4 @@
-*Two stage Op amp using
+*4 input Pseudo NMOS NAND Gate
 .include /Users/sanujkul/Documents/LTspice/Workspace/VLSI/libraries/180nm_model.txt
 
 *MSOFETS
