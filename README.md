@@ -16,3 +16,7 @@ LTSpice Implementation and analysis of VLSI designs learned in college in the co
    b. It is a low pass frequency response with 3 db bandwidth = 1.588 kHz  
    c. Slew rate = 20 V/us  
    f. DC gain = 42 dB  
+
+### 1.  Simulate following 3 input Psedo NMOS gates
+   (i)  NAND Gate
+   (ii) NOR Gate
