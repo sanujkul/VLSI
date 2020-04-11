@@ -17,6 +17,6 @@ LTSpice Implementation and analysis of VLSI designs learned in college in the co
    c. Slew rate = 20 V/us  
    f. DC gain = 42 dB  
 
-### 1.  Simulate following 3 input Psedo NMOS gates
-   (i)  NAND Gate
+### 2.  Simulate following 3 input Psedo NMOS gates
+   (i)  NAND Gate,  
    (ii) NOR Gate
