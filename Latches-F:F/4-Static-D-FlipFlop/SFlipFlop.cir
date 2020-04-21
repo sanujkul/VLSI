@@ -1,0 +1,32 @@
+*
+.include /Users/sanujkul/Documents/LTspice/libraries/180nm_model.txt
+.include /Users/sanujkul/Documents/LTspice/Workspace/VLSI/libraries/CMOS-NOT.cir
+
+XNOT1 1 2 100 CMOS_NOT
+XNOT2 3 6 100 CMOS_NOT
+XNOT3 4 5 100 CMOS_NOT
+XNOT4 7 8 100 CMOS_NOT
+XNOT5 8 9 100 CMOS_NOT
+
+XNOT6 5 3 100 CMOS_WEAK_NOT
+XNOT7 9 8 100 CMOS_WEAK_NOT
+
+
+M1 2 3 4 4 N_180 w=2.5u l=.18u
+M2 5 6 7 7 N_180 w=2.5u l=.18u
+
+CL 9 0 5p
+C2 2 0 1p
+C4 4 0 1p
+C5 5 0 1p
+C6 6 0 1p
+C7 7 0 1p
+
+Vdd 100 0 DC 5v
+
+Vd 1 0 PULSE(0 5v 4us 0.1fs 0.1fs 0.5us 1us)
+Vclk 3 0 PULSE(0 5v 5.3us 0.1fs 0.1fs 2us 4us)
+
+
+***** OUTPUT CODES **********
+.TRAN 0 15us
