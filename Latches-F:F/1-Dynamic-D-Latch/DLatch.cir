@@ -9,7 +9,11 @@ XNOT2 4 5 6 CMOS_NOT
 
 Vdd 6 0 DC 5v
 
-Vd 1 0 PULSE(0 5v 1us 0.1fs 0.1fs 0.5us 1us)
+C3 3 0 10p
+C4 4 0 10p
+C5 5 0 10p
+
+Vd 1 0 PULSE(0 5v 1.75us 0.1fs 0.1fs 0.5us 1us)
 Vclk 2 0 PULSE(0 5v 2us 0.1fs 0.1fs 2us 4us)
 
 ***** OUTPUT CODES **********
