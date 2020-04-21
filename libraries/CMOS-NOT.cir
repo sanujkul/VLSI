@@ -3,6 +3,7 @@
 * 2 - Input
 * 3 - Output
 
+*********************************************************************
 .SUBCKT CMOS_NOT 2 3 1
 
 *Use following statement to vary model parameters
@@ -12,3 +13,14 @@ M1 3 2 1 1 P_180 w=5u l=.18u
 M2 3 2 0 0 N_180 w=1.25u l=.18u
 
 .ENDS CMOS_NOT
+*********************************************************************
+.SUBCKT CMOS_WEAK_NOT 2 3 1
+
+*Use following statement to vary model parameters
+.include /Users/sanujkul/Documents/LTspice/libraries/180nm_model.txt
+
+M1 3 2 1 1 P_180 w=0.36u l=.18u
+M2 3 2 0 0 N_180 w=0.36u l=.18u
+
+.ENDS CMOS_NOT
+
