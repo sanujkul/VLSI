@@ -3,7 +3,7 @@ LTSpice Implementation and analysis of VLSI designs learned in college in the co
 
 ## List of Experiments:
 
-### 1. Simulate a 2 stage CMOS op amp and determine 
+### 1. To simulate a 2 stage CMOS op amp and determine 
    (i)   DC characteristics,   
    (ii)  frequency response,   
    (iv)  slew rate and   
@@ -17,6 +17,9 @@ LTSpice Implementation and analysis of VLSI designs learned in college in the co
    c. Slew rate = 20 V/us  
    f. DC gain = 42 dB  
 
-### 2.  Simulate following 3 input Psedo NMOS gates
+### 2.  To simulate following 3 input Psedo NMOS gates
    (i)  NAND Gate,  
    (ii) NOR Gate
+
+ Detailed experiment report is here : https://github.com/sanujkul/VLSI/blob/master/Pseudo-NMOS/Experiment-Report.pdf
+ 
