@@ -9,7 +9,7 @@ LTSpice Implementation and analysis of VLSI designs learned in college in the co
    (iv)  slew rate and   
    (v)   transient response.    
    
-   Detailed experiment report is here : https://github.com/sanujkul/VLSI/blob/master/CMOS-OpAmp/Experiment-Report.pdf. 
+   Detailed experiment report can be found here : https://github.com/sanujkul/VLSI/blob/master/CMOS-OpAmp/Experiment-Report.pdf. 
    
    #### Results:  
    a. The opamp saturates after |Vin| > 40 mV  
@@ -21,5 +21,13 @@ LTSpice Implementation and analysis of VLSI designs learned in college in the co
    (i)  NAND Gate,  
    (ii) NOR Gate
 
- Detailed experiment report is here : https://github.com/sanujkul/VLSI/blob/master/Pseudo-NMOS/Experiment-Report.pdf
+ Detailed experiment report can be here : https://github.com/sanujkul/VLSI/blob/master/Pseudo-NMOS/Experiment-Report.pdf
+ 
+ ### 3.  To Simulate following using pass transmission logic
+   (i)   Dynamic D-Latch,   
+   (ii)  Dynamic D-Flip Flop,   
+   (iv)  Static D-Latch   
+   (v)   Dynamic D-Flip Flop. 
+   
+  Detailed experiment report can be here : https://github.com/sanujkul/VLSI/blob/master/Latches-F:F/Experiment-Report.pdf
  
